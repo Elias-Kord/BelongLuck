@@ -1,4 +1,4 @@
-#include "Game.h"
+#include "../headers/Game.h"
 #include <iostream>
 
 Game::Game() {
@@ -16,10 +16,10 @@ void Game::move() {
     }
 
     std::cout 
-        << "У игрока 1: " << player1.get_health() << " жизней.\t" << "У игрока 2: " << player2.get_health() << " жизней.\n"
-        << "Дробовик у игрока " << turning << ".\n"
-        << "В кого выстрелить?\n"
-        << "1 или 2?\n";
+        << "пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ 1: " << player1.get_health() << " пїЅпїЅпїЅпїЅпїЅпїЅ.\t" << "пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ 2: " << player2.get_health() << " пїЅпїЅпїЅпїЅпїЅпїЅ.\n"
+        << "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ " << turning << ".\n"
+        << "пїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ?\n"
+        << "1 пїЅпїЅпїЅ 2?\n";
 
     int ans;
     std::cin >> ans;
@@ -48,6 +48,6 @@ void Game::move() {
 };
 
 void Game::end(int winner) {
-    std::cout << "Победил игрок " << winner << "!\n";
+    std::cout << "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ " << winner << "!\n";
     return;
 };

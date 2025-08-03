@@ -1,4 +1,4 @@
-#include "Weapon.h"
+#include "../headers/Weapon.h"
 #include <random>
 
 Weapon::Weapon() {}
@@ -33,7 +33,7 @@ std::string Weapon::gen_ammo() {
         ammo.push_back(false);
     }
 
-    return "Боевых: " + std::to_string(live) + "\tХолостых: " + std::to_string(blank) + "\n";
+    return "пїЅпїЅпїЅпїЅпїЅпїЅ: " + std::to_string(live) + "\tпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: " + std::to_string(blank) + "\n";
 }
 
 bool Weapon::shoot(Player& player) {
