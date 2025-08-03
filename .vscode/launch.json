@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+        "name": "Run Project",
+        "type": "cppvsdbg",
+        "request": "launch",
+        "program": "${workspaceFolder}/BelongLuck.exe",
+        "preLaunchTask": "Build Project",
+        "stopAtEntry": false,
+        "cwd": "${fileDirname}",
+        "environment": [],
+        "console": "externalTerminal"
+    }
+  ]
+}
