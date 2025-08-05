@@ -1,8 +1,6 @@
+#pragma once
 #include "Player.h"
 #include "Weapon.h"
-
-#ifndef Game_h
-#define Game_h
 
 class Game {
 private:
@@ -19,5 +17,3 @@ public:
 
     void end(int winner);
 };
-
-#endif

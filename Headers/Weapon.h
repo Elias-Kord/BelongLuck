@@ -1,9 +1,7 @@
+#pragma once
 #include "Player.h"
 #include <vector>
 #include <string>
-
-#ifndef Weapon_h
-#define Weapon_h
 
 class Weapon {
 private:
@@ -19,5 +17,3 @@ public:
 
     bool shoot(Player& player);
 };
-
-#endif

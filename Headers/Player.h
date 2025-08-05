@@ -1,5 +1,4 @@
-#ifndef Player_h
-#define Player_h
+#pragma once
 
 class Player {
 private:
@@ -14,5 +13,3 @@ public:
 
     void attack(int damage);
 };
-
-#endif
